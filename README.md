@@ -46,8 +46,8 @@ catkin_make
 ## Set Ethereum network & node (Rinkeby & Infura)
 
 
-1. Infura runs hosted Ethereum nodes. Go to https://infura.io and sign up
-2. At Infura site, create a new project
+1. Infura runs hosted Ethereum nodes. Go to https://infura.io and sign up.
+2. At Infura site, create a new project.
 3. Within the project settings page, note your Infura `project id` value. We will use it in the next step.
 4. Write your Infura `project id` to `ocean/infura` in config file:
 ```bash
@@ -56,8 +56,8 @@ nano ~/catkin_ws/src/water_drone_demo/config/config.yaml
 
 ## Set Ethereum account and get Rinkeby ETH
 
-1. Install Metamask to your browser and generate an Etherium account. Instructions are [here](https://docs.oceanprotocol.com/tutorials/metamask-setup/)
-2. Get Rinkeby ETH from a [fauset](https://faucet.rinkeby.io/)
+1. Install Metamask to your browser and generate an Etherium account. Instructions are [here](https://docs.oceanprotocol.com/tutorials/metamask-setup/).
+2. Get Rinkeby ETH from a [fauset](https://faucet.rinkeby.io/).
 3. [Export the private key from Metamask](https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-Export-an-Account-Private-Key) and write it to `ocean/test_key` in config file:
 ```bash
 nano ~/catkin_ws/src/water_drone_demo/config/config.yaml
@@ -92,7 +92,7 @@ Example of config file (without secret keys) you can find [here](https://github.
 
 ## Run simulation
 
-Run IPFS daemon
+Run IPFS daemon:
 ```bash
 ipfs daemon
 ```
@@ -100,7 +100,7 @@ In new terminal run Heron simulation:
 ```bash
 roslaunch heron_gazebo heron_world.launch
 ```
-In new terminal run control package
+In new terminal run control package:
 ```bash
 roslaunch water_drone_demo send_to_ocean.launch
 ```
