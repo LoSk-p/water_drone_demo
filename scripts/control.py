@@ -42,7 +42,7 @@ class WaterDrone:
             self.file.write(str(data))
     
     def create_datatoken(self):
-        config = {'network' : f"https://{self.config['ocean']['network']}.infura.io/v3/45783e54cc21448284d6bf2bfa6bd177",
+        config = {'network' : f"https://{self.config['ocean']['network']}.infura.io/v3/{self.config['ocean']['infura']}",
                 'metadataStoreUri' : f"https://aquarius.{self.config['ocean']['network']}.oceanprotocol.com",
                 'providerUri' : f"https://provider.{self.config['ocean']['network']}.oceanprotocol.com"}
         ocean = Ocean(config)

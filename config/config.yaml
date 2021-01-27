@@ -1,8 +1,9 @@
 robonomics:
-  path: "/home/alena/"
-  dron_address: "4FpVcZkCVJjMho7JTSw4S4qEyTVEb5AwdKXrWriQqSNqbhyq"
-  dron_key: ""
-  work_address: "4CoECiDP6EPSaH7q3KSxLo2Ahe7UrUa2RHMbSHQuiPLEtzPW"  
+  path: "/home/alena/"     # Path to your robonomics pinary file
+  dron_address: "4FpVcZkCVJjMho7JTSw4S4qEyTVEb5AwdKXrWriQqSNqbhyq"  # DRON account's address
+  dron_key: ""     # DRON account's secret key (Raw seed)
+  work_address: "4CoECiDP6EPSaH7q3KSxLo2Ahe7UrUa2RHMbSHQuiPLEtzPW"  # WORK account's address
 ocean:
-  test_key: ""
-  network: "ropsten"
+  test_key: ""  # Private key from your Metamask account
+  network: "rinkeby"  # Used network (rinkeby or ropsten)
+  infura: ""  # Infura project id
