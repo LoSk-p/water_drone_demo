@@ -1,0 +1,8 @@
+robonomics:
+  path: "/home/alena/"
+  dron_address: "4FpVcZkCVJjMho7JTSw4S4qEyTVEb5AwdKXrWriQqSNqbhyq"
+  dron_key: ""
+  work_address: "4CoECiDP6EPSaH7q3KSxLo2Ahe7UrUa2RHMbSHQuiPLEtzPW"  
+ocean:
+  test_key: ""
+  network: "ropsten"

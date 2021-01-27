@@ -1,0 +1,7 @@
+<launch>
+	<arg name="config" default="$(find water_drone_demo)/config/config.yaml" />
+
+    <node ns="water_drone" pkg="water_drone_demo" type="control.py" name="robonomics_listener" respawn="true" output="screen">
+        <param name="config" value="$(arg config)" />
+    </node>
+</launch>
