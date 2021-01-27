@@ -90,6 +90,11 @@ nano ~/catkin_ws/src/water_drone_demo/config/config.yaml
 ```
 Example of config file (without secret keys) you can find [here](https://github.com/LoSk-p/water_drone_demo/blob/main/config/config.yaml).
 
+It's important to remove `db` derictory before next launches using
+```bash
+rm -rf /home/$USER/.local/share/robonomics/chains/dev/db
+```
+
 ## Run simulation
 
 Run IPFS daemon:
